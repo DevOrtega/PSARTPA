@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { WeatherForecastService } from 'src/app/services/weatherforecast/weather-forecast.service';
 
 @Component({
   selector: 'app-weather-forecast',
@@ -6,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./weather-forecast.component.css']
 })
 export class WeatherForecastComponent implements OnInit {
+  public predictions: any;
+  constructor(private dataService: WeatherForecastService) { }
 
-  constructor() { }
-
-  ngOnInit(): void {
+  async ngOnInit(): Promise<void> {
+    this.predictions= await this.dataService.getData();
   }
 
 }

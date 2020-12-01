@@ -5,8 +5,8 @@ import { WeatherForecastComponent } from './components/weather-forecast/weather-
 import { WeatherObservedComponent } from './components/weather-observed-component/weather-observed.component';
 
 const routes: Routes = [
-  { path:'weather-forecast', component: WeatherForecastComponent },
-  { path:'weather-observed', component: WeatherObservedComponent },
+  { path:'', component: WeatherForecastComponent },
+  /* { path:'weather-observed', component: WeatherObservedComponent }, */
 ];
 
 @NgModule({
