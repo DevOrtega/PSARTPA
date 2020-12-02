@@ -4,8 +4,8 @@ Predicciones para pasar al sistema de riego (entidad WeatherForecast Fiware NGSI
 
 # ENLACES
 
-API: https://08da8c356e34.ngrok.io/v2/entities
+API: https://1eaca7ffda09.ngrok.io/v2/entities
 
-Datos predictivos en tabla: https://0872d1739692.ngrok.io
+Datos predictivos en tabla: https://f791082a60fc.ngrok.io
 
 
